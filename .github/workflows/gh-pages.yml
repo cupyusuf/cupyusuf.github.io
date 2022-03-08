@@ -3,16 +3,12 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main
-    paths:
-      - "site/**"
+      - main  # Set a branch to deploy
+  pull_request:
 
 jobs:
   deploy:
     runs-on: ubuntu-20.04
-    defaults:
-      run:
-        working-directory: ./site
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -35,4 +31,4 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site/public
+          publish_dir: ./public
