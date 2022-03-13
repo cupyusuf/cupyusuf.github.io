@@ -1,6 +1,6 @@
 ---
 title: "SEAMLESS WATCH"
-date: 2019-12-23T15:55:44+06:00
+date: 2022-03-13T16:14:35+07:00
 type: portfolio
 image: "images/projects/project-thumb-three.jpg"
 category: ["REBRAND"]

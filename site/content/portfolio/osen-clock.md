@@ -1,6 +1,6 @@
 ---
 title: "OSEN CLOCK"
-date: 2019-12-23T15:56:43+06:00
+date: 2022-03-13T16:14:35+07:00
 type: portfolio
 image: "images/projects/project-thumb-two.jpg"
 category: ["PRODUCT DESIGN"]
